@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Clone</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="title">Hello, there</h2>
+        <h4 class="subtitle">How can i help you today?</h4>
+
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Help me plan a game night with my 5 best friends for under $100.</h4>
+                <span class="icon material-symbols-outlined">draw</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text"> Write JavaScript code to sum all the elements in an array.</h4>
+                <span class="icon material-symbols-outlined">code</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Can you help me out to find latest news on web development</h4>
+                <span class="icon material-symbols-outlined">explore</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">What are the best tips to improve my public speaking skills?</h4>
+                <span class="icon material-symbols-outlined">lightbulb</span>
+            </li>
+        </ul>
+    </header>
+
+    <div class="chat-list">
+ 
+    </div>
+
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter a prompt here" class="typing-input" required>
+                <button class="icon material-symbols-outlined">send</button>
+            </div>
+            <div class="action-button">
+                <span id="toggle-theme-button" class="icon material-symbols-outlined">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
+            </div>
+        </form>
+        <p class="disclamer-text">
+            Gemini may display inaccurate info, including about people, so doublee-check its response.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
