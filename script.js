@@ -88,7 +88,7 @@ const genrateAPIResponse = async (incomingMessageDiv) => {
 
 const showLoadingAnimation= () => {
     const html = `<div class="message-content">
-                <img src="images/gemini.svg" alt="Gemini Image" class="avatar">
+                <img src="gemini.svg" alt="Gemini Image" class="avatar">
                 <p class="text"></p>
                 <div class="loading-indicator">
                     <div class="loading-bar"></div>
@@ -120,7 +120,7 @@ const handleOutgoingChat= () => {
     isResponseGenerating = true;
 
     const html = `<div class="message-content">
-                <img src="images/user.jpg" alt="User Image" class="avatar">
+                <img src="user.jpg" alt="User Image" class="avatar">
                 <p class="text"></p>
             </div>`;
 
